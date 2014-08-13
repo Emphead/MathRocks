@@ -1,0 +1,39 @@
+[submodule "Approximation"]
+	path = Approximation
+	url = https://github.com/MathLibrary/Approximation.git
+[submodule "Combinatorics"]
+	path = Combinatorics
+	url = https://github.com/MathLibrary/Combinatorics.git
+[submodule "Core"]
+	path = Core
+	url = https://github.com/MathLibrary/Core.git
+[submodule "DataAnalysis"]
+	path = DataAnalysis
+	url = https://github.com/MathLibrary/DataAnalysis.git
+[submodule "DataStructure"]
+	path = DataStructure
+	url = https://github.com/MathLibrary/DataStructure.git
+[submodule "FunctionalAnalysis"]
+	path = FunctionalAnalysis
+	url = https://github.com/MathLibrary/FunctionalAnalysis.git
+[submodule "Integration"]
+	path = Integration
+	url = https://github.com/MathLibrary/Integration.git
+[submodule "Interaction"]
+	path = Interaction
+	url = https://github.com/MathLibrary/Interaction.git
+[submodule "LinearAlgebra"]
+	path = LinearAlgebra
+	url = https://github.com/MathLibrary/LinearAlgebra.git
+[submodule "ProbabilityTheory"]
+	path = ProbabilityTheory
+	url = https://github.com/MathLibrary/ProbabilityTheory.git
+[submodule "Statistics"]
+	path = Statistics
+	url = https://github.com/MathLibrary/Statistics.git
+[submodule "UncertaintyQuantification"]
+	path = UncertaintyQuantification
+	url = https://github.com/MathLibrary/UncertaintyQuantification.git
+[submodule "Vendor"]
+	path = Vendor
+	url = https://github.com/MathLibrary/Vendor.git
