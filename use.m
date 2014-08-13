@@ -5,7 +5,7 @@ function use(varargin)
     executedSetups = {};
   end
 
-  addpath([pwd, filesep, 'Core']);
+  addpath([rootDirectory, filesep, 'Core']);
 
   name = File.join(varargin{:});
 
@@ -26,4 +26,9 @@ function use(varargin)
   else
     warning('An attempt to include a non-existing library "%s".', name);
   end
+end
+
+function path = rootDirectory
+  stack = dbstack('-completenames');
+  [path, ~, ~] = fileparts(stack(1).file);
 end
