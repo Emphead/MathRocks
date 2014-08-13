@@ -1,9 +1,9 @@
-# MathLibrary
+# MathRocks
 
 ## Installation
 
 ```bash
-$ git clone https://github.com/MathLibrary/MathLibrary.git --recursive
-$ cd MathLibrary
+$ git clone https://github.com/MathRocks/MathRocks.git --recursive
+$ cd MathRocks
 $ make
 ```
