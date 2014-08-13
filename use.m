@@ -1,11 +1,13 @@
 function use(varargin)
+  addpath([rootDirectory, filesep, 'Core']);
+
+  if isempty(varargin), return; end
+
   global executedSetups;
 
   if ~exist('executedSetups', 'var')
     executedSetups = {};
   end
-
-  addpath([rootDirectory, filesep, 'Core']);
 
   name = File.join(varargin{:});
 
