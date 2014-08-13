@@ -1,39 +1,52 @@
 [submodule "Approximation"]
 	path = Approximation
 	url = https://github.com/MathLibrary/Approximation.git
+	branch = master
 [submodule "Combinatorics"]
 	path = Combinatorics
 	url = https://github.com/MathLibrary/Combinatorics.git
+	branch = master
 [submodule "Core"]
 	path = Core
 	url = https://github.com/MathLibrary/Core.git
+	branch = master
 [submodule "DataAnalysis"]
 	path = DataAnalysis
 	url = https://github.com/MathLibrary/DataAnalysis.git
+	branch = master
 [submodule "DataStructure"]
 	path = DataStructure
 	url = https://github.com/MathLibrary/DataStructure.git
+	branch = master
 [submodule "FunctionalAnalysis"]
 	path = FunctionalAnalysis
 	url = https://github.com/MathLibrary/FunctionalAnalysis.git
+	branch = master
 [submodule "Integration"]
 	path = Integration
 	url = https://github.com/MathLibrary/Integration.git
+	branch = master
 [submodule "Interaction"]
 	path = Interaction
 	url = https://github.com/MathLibrary/Interaction.git
+	branch = master
 [submodule "LinearAlgebra"]
 	path = LinearAlgebra
 	url = https://github.com/MathLibrary/LinearAlgebra.git
+	branch = master
 [submodule "ProbabilityTheory"]
 	path = ProbabilityTheory
 	url = https://github.com/MathLibrary/ProbabilityTheory.git
+	branch = master
 [submodule "Statistics"]
 	path = Statistics
 	url = https://github.com/MathLibrary/Statistics.git
+	branch = master
 [submodule "UncertaintyQuantification"]
 	path = UncertaintyQuantification
 	url = https://github.com/MathLibrary/UncertaintyQuantification.git
+	branch = master
 [submodule "Vendor"]
 	path = Vendor
 	url = https://github.com/MathLibrary/Vendor.git
+	branch = master
