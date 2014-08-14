@@ -3,6 +3,7 @@ all:
 	$(MAKE) all -C Vendor
 
 git-setup-development:
+	git config remote.origin.url git@github.com:MathRocks/MathRocks.git
 	cat .gitmodules | sed 's/https:\/\/github\.com\//git@github.com:/' > gitmodules
 	mv gitmodules .gitmodules
 	git submodule init
