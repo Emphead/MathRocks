@@ -2,7 +2,7 @@ all:
 	$(MAKE) all -C DataStructure
 	$(MAKE) all -C Vendor
 
-development:
+git-setup-development:
 	cat .gitmodules | sed 's/https:\/\/github\.com\//git@github.com:/' > gitmodules
 	mv gitmodules .gitmodules
 	git submodule init
