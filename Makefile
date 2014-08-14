@@ -11,4 +11,4 @@ git-setup-development:
 	git submodule foreach git checkout master
 
 git-add-submodules:
-	git add $(shell git submodule status | cut -d' ' -f2)
+	git add $(shell git submodule status | grep '^\+' | cut -d' ' -f2)
